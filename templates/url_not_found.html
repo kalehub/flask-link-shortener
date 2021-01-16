@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-sm-12">
+        <div class="container">
+            <h1 class="text-info"> Oops! We could't find the URL.</h1>
+            <small class="text-muted">But you can make it <a class='text-info' href={{ url_for('index') }}>here.</a></small>
+        </div>
+    </div>
+</div>
+{% endblock %}
